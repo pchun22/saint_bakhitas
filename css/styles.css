@@ -1,0 +1,455 @@
+.full-height{
+    height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Vollkorn', serif;
+}
+
+hr{
+    height: 1px;
+    background-color: #C78085;
+    color: #C78085
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.navbar a{
+    color: #670A0F;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:rgba(235, 235, 235, 1);
+}
+
+.nav-title{
+    font-weight: 500;
+}
+
+.sbvtc-logo{
+    height: 40px;
+    margin-right: 0;
+}
+
+@media only screen and (max-width:500px) {
+    .navbar .h6{
+        font-size: 0.75rem;
+        vertical-align: text-top;
+    }
+}
+
+.row{
+    margin: auto;
+}
+
+.custom-toggler { 
+    border-color: #670A0F;
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(103, 10, 15, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");  
+}
+
+footer{
+    background-color: #F3F4F0;
+    color: #670A0F; 
+}
+
+.hidden{
+    display: none;
+}
+
+#students, #about{
+    padding-top: 40px;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 4px black;
+}
+
+.side-label{
+    width: 35%;
+    margin: 5% 0%;
+    padding-top: 1%; 
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .side-label{
+        width: 75%;
+    }
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    background-color:#C78085;
+    border-color: #670A0F;
+}
+
+.btn:hover{
+    background-color: #670A0F;
+    color: white;
+    border-color: #670A0F;
+}
+
+
+
+/* cover */
+#cover-section{
+    color: white;
+    padding-top: 15%;
+    background: url("/images/cover.jpg") no-repeat center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cover-info{
+    margin: 250px 0 5%;
+}
+
+.slogan{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:850px) {
+    #cover-section{
+        background-attachment: initial;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .cover-info{
+        margin: 300px 0 50px;
+    }
+}
+
+/* fact section */
+
+#fact-section{
+    padding: 5%;
+}
+
+@media only screen and (max-width:768px) {
+    .education-for-all{
+        padding-top: 30px;
+    }
+
+    .areas-of-study h4{
+        font-size: 1.25rem;
+    }
+}
+
+.fact-block{
+    margin-top: 4%;
+    padding: 0% 2%;
+}
+
+
+#fact-section hr{
+    margin-left: 0;
+    width: 25%;
+}
+
+.fact-block h2{
+    margin-bottom: 5%;
+}
+
+.enrollment h3, .additional-services h3{
+    font-size: 2.5rem;
+}
+
+
+.areas-of-study p{
+    font-size: .75rem;
+}
+
+.common-jobs p{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.tuition p{
+    font-size: 1.5rem;
+}
+
+/* alumni section */
+.alumni-profile{
+    padding: 0 5% 7%;
+}
+
+.alumni-photo-block{
+    padding: 0 7%;
+}
+
+/* contact section */
+#contact-section{
+    background: url("/images/contact.jpg") no-repeat center center; 
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width:850px) {
+    #contact-section{
+        background-attachment: initial;
+    }
+}
+
+.contact-block{
+    padding: 0 3%;
+}
+
+/* about section */
+#about-section .row{
+    padding: 2% 7%;
+}
+
+#about-section .col{
+    padding: 3%;
+}
+
+#about-section hr{
+    margin: 1% 0;
+    width: 50%;
+}
+
+/*innovation section */
+#innovations-section{
+    padding: 5%;
+}
+
+#innovations-section img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:991px) {
+    #innovations-section img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+#innovations-section hr{
+    color: white;
+    background-color: white;
+    width: 10%;
+}
+
+/* involvement section */
+#involved-section .row{
+    padding: 2% 5%;
+}
+
+#involved-section img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:991px) {
+    #involved-section img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+/* partner section */
+#partner-section{
+    padding: 7% 5% 3%;
+}
+
+.logo{
+    max-width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width:768px) {
+    #partner-section h3{
+        font-size: 1rem
+    }
+
+    #partner-section h1{
+        font-size: 2rem
+    }
+
+    .logo{
+        max-width: 75%;
+    }
+}
+
+/* support */
+.gofundme{
+    margin: 0 auto;
+}
+
+/* specific innovations */
+.innovation-title{
+    margin-bottom: 20%;
+    margin-top: 100px;
+}
+
+.innovation-content-mobile{
+    display: none;
+}
+
+@media only screen and (max-width:850px) {
+    .innovation-title{
+
+        margin-bottom:200px;
+    }
+
+    .innovation-content-mobile{
+        display: block;
+    }
+
+    .innovation-content-desktop{
+        display: none;
+    }
+}
+
+.challenge, .goals, .current-steps{
+    padding: 5%;
+}
+
+#farm-cover{
+    padding: 5% 0%;
+    background: url("/images/innovations/farm/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#reforestation-cover{
+    padding: 5% 0%;
+    background: url("/images/innovations/reforestation/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#energy-cover{
+    padding: 5% 0%;
+    background: url("/images/innovations/energy/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#education-cover{
+    padding: 5% 0%;
+    background: url("/images/innovations/education/cover.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (max-width:850px) {
+    #farm-cover, #reforestation-cover, #energy-cover, #education-cover{
+        background-attachment: initial;
+    }
+}
+
+/* extra pages */
+.buffer{
+    padding: 120px 7% 70px;
+}
+
+.blog-post{
+    margin: 5% 0 0;
+    padding: 5%;
+    box-shadow: 0px 4px 16px #670A0F;
+    background-color: #EBECE8;
+    color: black;
+}
+
+/* colors */
+.prim-red{
+    background-color: #C78085;
+    color: white;
+}
+
+.dark-red{
+    background-color: #670A0F;
+    color: white;
+}
+
+.alt-red{
+    background-color: #A95258;
+    color: white;
+}
+
+.gray{
+    background-color: #EBECE8;
+}
+
+.dark{
+    background-color: #262626;
+    color: white
+}
+
+.beige{
+    background-color: #F3F4F0;
+    color: black;
+}
+
+.white{
+    background-color: #FFFFFF;
+}
+
+.text-dark-red{
+    color: #670A0F;
+}
+
+.text-white{
+    color: white;
+}
+
+
+

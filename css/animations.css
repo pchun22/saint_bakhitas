@@ -1,0 +1,57 @@
+
+
+
+/* Transitions */
+.fade-up {
+	transition: all 1s ease-in-out;
+	opacity: 0;
+	transform: translateY(20%);
+}
+
+.fade-up.in-view {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fade-in {
+	transition: all 2s ease-in-out;
+	opacity: 0;
+}
+
+.fade-in.in-view {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fade-down {
+	transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(-20%);
+}
+
+.fade-down.in-view {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fade-right {
+	transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(-20%);
+}
+
+.fade-right.in-view {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.fade-left {
+	transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(20%);
+}
+
+.fade-left.in-view {
+	opacity: 1;
+	transform: translateX(0);
+}
