@@ -129,7 +129,8 @@ footer{
 #cover-section{
     color: white;
     padding-top: 15%;
-    background: url("./images/cover.jpg") no-repeat center center;
+    background-image: url("./images/cover.jpg"); 
+    background: no-repeat center center;
     background-attachment: fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -219,7 +220,8 @@ footer{
 
 /* contact section */
 #contact-section{
-    background: url("./images/contact.jpg") no-repeat center center; 
+    background-image: url("./images/contact.jpg"); 
+    background: no-repeat center center; 
     background-attachment: fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -356,7 +358,8 @@ footer{
 
 #farm-cover{
     padding: 5% 0%;
-    background: url("./images/innovations/farm/cover.jpg") no-repeat center center fixed; 
+    background-image: url("./images/innovations/farm/cover.jpg");
+    background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -365,7 +368,8 @@ footer{
 
 #reforestation-cover{
     padding: 5% 0%;
-    background: url("./images/innovations/reforestation/cover.jpg") no-repeat center center fixed; 
+    background-image: url("./images/innovations/reforestation/cover.jpg");
+    background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -374,7 +378,8 @@ footer{
 
 #energy-cover{
     padding: 5% 0%;
-    background: url("./images/innovations/energy/cover.jpg") no-repeat center center fixed; 
+    background-image: url("./images/innovations/energy/cover.jpg");
+    background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -383,7 +388,8 @@ footer{
 
 #education-cover{
     padding: 5% 0%;
-    background: url("./images/innovations/education/cover.jpg") no-repeat center center fixed; 
+    background-image: url("./images/innovations/education/cover.jpg");
+    background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
